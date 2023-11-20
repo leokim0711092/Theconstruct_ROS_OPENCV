@@ -16,14 +16,14 @@ hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 #Hsv limits are defined
 #here is where you define the range of the color you´re looking for
 #each value of the vector corresponds to the H,S & V values respectively
-min_green = np.array([50,220,220])
-max_green = np.array([60,255,255])
+min_green = np.array([40,220,220])
+max_green = np.array([70,255,255])
 
-min_red = np.array([170,220,220])
+min_red = np.array([160,220,220])
 max_red = np.array([180,255,255])
 
-min_blue = np.array([110,220,220])
-max_blue = np.array([120,255,255])
+min_blue = np.array([100,220,220])
+max_blue = np.array([130,255,255])
 
 
 #This is the actual color detection 

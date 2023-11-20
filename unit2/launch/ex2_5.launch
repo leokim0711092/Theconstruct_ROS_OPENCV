@@ -1,0 +1,6 @@
+
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="unit2" type="ex2_5_color_filter2.py" name="ex2_5"  output="screen">
+    </node>
+</launch>
