@@ -19,7 +19,7 @@ def order_coordinates(pts):
 
     return coordinates
 
-image = cv2.imread('/home/user/catkin_ws/src/opencv_for_robotics_images/Unit_5/Course_images/Examples/a3.jpg')
+image = cv2.imread('/home/user/catkin_ws/src/opencv_for_robotics_images/unit5/Examples/a3.jpg')
 h,w = image.shape[:2]
 
 image = cv2.resize(image,(int(w*0.7), int(h*0.7)))
